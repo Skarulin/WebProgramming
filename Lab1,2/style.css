@@ -1,3 +1,49 @@
+@media screen and (max-width: 600px) {
+    .star{
+        width: 7px;
+        height: 7px;
+    }
+    .shops{
+        width: 300px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .star{
+        width: 12px;
+        height: 12px;
+    }
+    .shops{
+        width: 500px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .star{
+        width: 20px;
+        height: 20px;
+    }
+    .shops{
+        width: 668px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .star{
+        width: 25px;
+        height: 25px;
+    }
+    .shops{
+        width: 892px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .star{
+        width: 30px;
+        height: 30px;
+    }
+    .shops{
+        width: 1100px;
+    }
+}
+
 
 .container-header, .line{
     display: flex;
@@ -99,6 +145,8 @@
     width: 65%;
 }
 .skills-stars{
+    flex-wrap: nowrap ;
+    white-space: nowrap;
     padding-top: 10%;
 }
 
